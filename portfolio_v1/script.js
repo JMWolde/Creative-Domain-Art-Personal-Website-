@@ -1,12 +1,9 @@
 const MainElement = document.getElementById("MainText");
 const MainBTN = document.createElement("button");
+const overlay = document.querySelector(".screen-fade");
 MainBTN.innerHTML = MainElement.innerHTML;
 MainBTN.className = MainElement.className;
 MainBTN.addEventListener("click", (e) => {
-video.style.display = "block";
-video.play();
+overlay.classList.add("is-active");
 });
-video.onended = () => {
-    video.style.display = 'none';
-};
 MainElement.replaceWith(MainBTN);
