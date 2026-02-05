@@ -1,46 +1,4 @@
 
-#overlayVideo {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    opacity: 0.7;
-}
-.screen-fade {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 1s ease-in-out;
-    z-index: 9999;
-}
-.screen-fade.is-active {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.overlay {
-    opacity: 0.5;
-}
-.sections {
-    display: none;
-}
-.main-title {
-    background : none;
-    border : none;
-    display: block;
-    font-family: 'Alcrudas', cursive;
-    font-size: 200px;
-    font-weight: normal;
-    color: azure;
-
-}
 .text-flicker-in-glow {
     animation: text-flicker-in-glow 4s linear both;
 }
