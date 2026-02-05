@@ -13,11 +13,12 @@ body {
 }
 .title-adjustment {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 93vh;
 }
-.main-title {
+.main-font {
     background : none;
     border : none;
     display: block;
@@ -26,4 +27,19 @@ body {
     font-weight: normal;
     color: azure;
 
+}
+.sub-font {
+    background : none;
+    border : none;
+    display: block;
+    font-family: 'Alcrudas', cursive;
+    font-weight: normal;
+    color: azure;
+    font-size : 50px;
+    margin-top: 5px;
+}
+.sub-text-adjustment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
