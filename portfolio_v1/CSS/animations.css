@@ -1,8 +1,10 @@
 .delayed-text {
     opacity: 0;
 
-    animation: blink-1 2s both;
+    animation: blink-1 2s forwards;
     animation-delay: 3s;
+
+
 }
 
 
@@ -18,17 +20,6 @@
  * animation blink-1
  * ----------------------------------------
  */
-@-webkit-keyframes blink-1 {
-    0%,
-    50%,
-    100% {
-        opacity: 1;
-    }
-    25%,
-    75% {
-        opacity: 0;
-    }
-}
 @keyframes blink-1 {
     0%,
     50%,
@@ -84,3 +75,5 @@
     from { border-right-color: rgba(255,255,255,.75); }
     to { border-right-color: transparent; }
 }
+
+

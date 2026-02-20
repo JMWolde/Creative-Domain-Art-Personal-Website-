@@ -1,0 +1,8 @@
+.startup.hidden {
+    opacity: 0;
+    display: none;
+}
+.main-menu.found {
+    opacity: 1;
+    visibility: visible;
+}

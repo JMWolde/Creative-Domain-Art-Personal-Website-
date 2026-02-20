@@ -3,20 +3,89 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Portfolio</title>
+                <title>Creative Domain</title>
             </meta>
         </meta>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="transitions.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/mainhub.css">
+    <link rel="stylesheet" href="CSS/graphicdesign.css">
+    <link rel="stylesheet" href="CSS/startup.css">
+    <link rel="stylesheet" href="CSS/animations.css">
+    <link rel="stylesheet" href="CSS/transitions.css">
+    <link rel="stylesheet" href="CSS/CSProjects.css">
 </head>
 <body>
+
+
+<!--Startup Section-->
+
+<div class="startup">
 <div class="title-adjustment">
-    <h1 id = "MainText" class="main-font cursor typewriter-animation">Creative Domain</h1>
-    <p class = "sub-font delayed-text">*Press Enter*</p>
+    <h1 id = "StartUp-Text" class="startup-font cursor typewriter-animation">Creative Domain</h1>
+    <p class = "sub-font delayed-text">*Click To Enter*</p>
+</div>
 </div>
 
-    <div class="screen-fade"></div>
- <script src="script.js"></script>
+
+
+
+
+
+
+
+<!--Center Hub-->
+
+<div class = "NOTstartup">
+
+<div class = "main-menu">
+    <div class ="main-menu-adjustment">
+<!--    <p class = "hub-text" >creative domain</p>-->
+    </div>
+
+    <div class = "hub-buttons">
+        <button type ="button" class="hub-btn" id = "GraphicBTN">Graphic Design</button>
+        <button type ="button" class="hub-btn" id = "CSBTN">CS Projects</button>
+</div>
+</div>
+-
+<!--Graphic Design Section-->
+
+
+<div class ="graphic-design">
+
+    <div class = "GD-container" id = "GD-container">
+
+        
+    </div>
+    <button type ="button" class="hub-btn" id = "backwardBTN"><</button>
+    <button type ="button" class="hub-btn" id = "forwardBTN">></button>
+
+    </div>
+
+<!-- CS Projects Section   -->
+
+    <div class ="cs-projects">
+    </div>
+    
+    <div class ="back-button">
+        <button type ="button" class="back-btn" id ="BackBTN">Back</button>
+    </div>
+    <div class ="background">
+        <video autoplay muted loop id="bgVideo">
+            <source src ="assets/videos/bgTerm.webm" type="video/webm">
+        </video>
+    </div>
+    
+</div> <!-- End of NOTstartup -->
+
+
+
+
+
+
+
+<script type="module" src="JS/startup.js"></script>
+<script type="module" src="JS/mainhub.js"></script>
+<script type="module" src="JS/graphicdesign.js"></script>
 </body>
 </html>
