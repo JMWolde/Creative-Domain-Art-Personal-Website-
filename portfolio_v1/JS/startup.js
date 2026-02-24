@@ -6,11 +6,18 @@ const StartUpBTN = document.createElement("button");
 const Change = document.querySelector(".startup");
 const hub = document.querySelector(".main-menu");
 const bgVideo = document.getElementById("bgVideo");
+const introSound = document.getElementById("introSound");
 StartUpBTN.innerHTML = StartUpElement.innerHTML;
 StartUpBTN.className = StartUpElement.className;
 StartUpBTN.addEventListener("click", (e) => {
     document.body.classList.add("hidden")
     Change.classList.add("hidden");
+
+
+    setTimeout(() => {
+        introSound.play();
+        introSound.volume = 0.1;
+    }, 500);
 
 
         setTimeout(() => {
