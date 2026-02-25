@@ -6,6 +6,7 @@ const StartUpBTN = document.createElement("button");
 const Change = document.querySelector(".startup");
 const hub = document.querySelector(".main-menu");
 const bgVideo = document.getElementById("bgVideo");
+const CDText = document.getElementById("CDTEXT");
 const introSound = document.getElementById("introSound");
 StartUpBTN.innerHTML = StartUpElement.innerHTML;
 StartUpBTN.className = StartUpElement.className;
@@ -24,6 +25,7 @@ StartUpBTN.addEventListener("click", (e) => {
             console.log("Timed event executed!");
             hub.classList.add("found");
             bgVideo.classList.add("found");
+            CDText.classList.add("found");
         }, 1000);
 
     });
