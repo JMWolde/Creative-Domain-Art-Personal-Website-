@@ -6,6 +6,12 @@
                 <title>Creative Domain</title>
             </meta>
         </meta>
+
+
+
+
+
+
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="stylesheet" href="CSS/mainhub.css">
     <link rel="stylesheet" href="CSS/graphicdesign.css">
@@ -14,6 +20,12 @@
     <link rel="stylesheet" href="CSS/transitions.css">
     <link rel="stylesheet" href="CSS/CSProjects.css">
     <link rel="stylesheet" href="CSS/CenterPiece.css">
+    <link rel="stylesheet" href="CSS/modelSection.css">
+
+
+
+
+
 </head>
 <body>
 
@@ -26,6 +38,13 @@
     <p class = "sub-font delayed-text">*Click To Enter*</p>
 </div>
 </div>
+
+
+
+
+
+
+
 
 
 
@@ -47,13 +66,45 @@
     <audio id="introSound">
         <source src ="assets/audio/introSound.mp3" type="audio/mp3"></source>
     </audio>
+    <audio id="HoverBTN">
+        <source src ="assets/audio/HoverBTN.mp3" type="audio/mp3"></source>
+    </audio>
     <div class = "Center-Piece">
-        <img class = "Me" src="assets/CenterPiece/DefaultPose.jpg" alt="Default" id = "DefaultPose">
-        <img class = "Me" src="assets/CenterPiece/TopLeft.jpg" alt="Default" id = "TopLeft">
-        <img class = "Me" src="assets/CenterPiece/TopRight.jpg" alt="Default" id = "TopRight">
-        <img class = "Me" src="assets/CenterPiece/Left.jpg" alt="Default" id = "Left">
-        <img class = "Me" src="assets/CenterPiece/Right.jpg" alt="Default" id = "Right">
+        <div class ="Center-Vid">
+            <video autoplay muted loop id="DefaultPose">
+                <source src ="assets/videos/MeHub/DefaultMe.mp4" type="video/mp4">
+            </video>
+
+
+            <video autoplay muted loop id="Select">
+                <source src ="assets/videos/MeHub/Select.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="TopLeft">
+                <source src ="assets/videos/MeHub/TopLeft.mp4" type="video/mp4">
+            </video>
+
+
+            <video autoplay muted loop id="TopRight">
+                <source src ="assets/videos/MeHub/TopRight.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="Left">
+                <source src ="assets/videos/MeHub/Left.mp4" type="video/mp4">
+            </video>
+
+
+            <video autoplay muted loop id="Right">
+                <source src ="assets/videos/MeHub/Right.mp4" type="video/mp4">
+            </video>
+
+
+
+        </div>
     </div>
+    <video autoplay muted loop id="CDTEXT">
+        <source src ="assets/videos/creativeDomainText.mp4" type="video/mp4">
+    </video>
     <div class = "hub-buttons">
         <button type ="button" class="hub-btn" id = "GraphicBTN">Graphic Design</button>
         <button type ="button" class="hub-btn" id = "ModelsBTN">3D Models</button>
@@ -62,6 +113,15 @@
 </div>
 </div>
 -
+
+
+
+
+
+
+
+
+
 <!--Graphic Design Section-->
 
 
@@ -76,6 +136,13 @@
 
     </div>
 
+<!--3D Modeling Section-->
+    <div class ="Modeling">
+    </div>
+
+<!--Sketches Section-->
+    <div class ="sketches">
+    </div>
 <!-- CS Projects Section   -->
 
     <div class ="cs-projects">
@@ -88,15 +155,17 @@
 
 
     <div class ="background">
-        <video autoplay muted loop id="CDTEXT">
-            <source src ="assets/videos/creativeDomainText.mp4" type="video/mp4">
-        </video>
+
         <video autoplay muted loop id="bgVideo">
             <source src ="assets/videos/bgTerm.webm" type="video/webm">
         </video>
     </div>
     
 </div> <!-- End of NOTstartup -->
+
+
+
+
 
 
 
